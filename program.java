@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 public class program 
 {
 
@@ -6,14 +6,8 @@ public class program
 {
         
         int num1, num2, sum;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter First Number: ");
-        num1 = sc.nextInt();
-        
-        System.out.println("Enter Second Number: ");
-        num2 = sc.nextInt();
-        
-        sc.close();
+        num1 = 100;
+        num2 30;
         sum = num1 + num2;
         System.out.println("Sum of these numbers: "+sum);
     }
